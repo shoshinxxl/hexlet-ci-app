@@ -1,0 +1,17 @@
+name: workflow-setup
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run setup
+        run: make setup
+
+      - name: Run linters
+        run: make lint
+
+      - name: Run tests
+        run: make test
