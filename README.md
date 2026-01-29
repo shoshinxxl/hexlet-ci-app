@@ -1,6 +1,6 @@
 # Example app for CI Hexlet course
 
-https://github.com/shoshinxxl/hexlet-ci-app/actions/runs/21472968120
+[CI test](https://github.com/shoshinxxl/hexlet-ci-app/actions/runs/21472968120)
 
 Starting boilerplate of [Strapi](https://strapi.io/) application
 
